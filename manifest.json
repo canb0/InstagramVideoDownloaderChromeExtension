@@ -1,0 +1,15 @@
+{
+  "name": "Instagram Video Downloader",
+  "description": "Download any Instagram Video Easlily",
+  "version": "1.0",
+  "browser_action": {
+    "default_title": "InstaDownloader",
+    "default_popup": "index.html",
+    "default_icon": "icon/download.png"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": ["downloads", "<all_urls>"],
+  "manifest_version": 2
+}
